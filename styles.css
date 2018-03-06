@@ -1,13 +1,17 @@
-header {
-	color: #FFFFFF;
-	background-color: #FD739C;
-}
-
-h1, h2 {
-	font-family: "Arial";
-}
-
 body {
 	font-size: 22px;
 	line-height: 34px;
 }
+
+header,
+nav {
+	color: #FFFFFF;
+	background-color: #FD739C;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, 
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
