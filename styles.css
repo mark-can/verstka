@@ -11,16 +11,12 @@ nav {
 }
 
 header {
-	padding-top: 100px;
-	padding-bottom: 50px;
+	padding: 100px 0px 50px;
 }
 
 h1 {
+	margin-bottom: 10px;
 	line-height: 0.7em;
-}
-
-main {
-	padding-top: 55px;
 }
 
 h1, 
@@ -28,3 +24,6 @@ h2 {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+.landing-section-whoami {
+	padding-top: 50px;
+}
