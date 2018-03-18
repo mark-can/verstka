@@ -1,0 +1,163 @@
+.container {
+    width: 956px;
+    margin-left: 81px;
+    margin-right: 87px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
+
+  .col-1 {
+    flex-basis: 8.3333%;
+  }
+  .col-2 {
+    flex-basis: 16.6666%;
+  }
+  .col-3 {
+    flex-basis: 24.9999%;
+  }
+  .col-4 {
+    flex-basis: 33.3333%;
+  }
+  .col-5 {
+    flex-basis: 41.6665%;
+  }
+  .col-6 {
+    flex-basis: 49.9998%;
+  }
+  .col-7 {
+    flex-basis: 58.3331%;
+  }
+  .col-8 {
+    flex-basis: 66.6664%;
+  }
+  .col-9 {
+    flex-basis: 74.9997%;
+  }
+  .col-10 {
+    flex-basis: 83.3333%;
+  }
+  .col-11 {
+    flex-basis: 91.6663%;
+  }
+  .col-12 {
+    flex-basis: 100%;
+  }
+
+  .body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #1d1d1d;
+
+    background-color: #f2f2f2;
+  }
+
+  .header {
+    position: fixed;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  }
+
+  .logo {
+    margin-top: 30px;
+  }
+
+  .ASAP-location {
+    margin-top: 16px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ASAP {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 65px;
+    height: 40px;
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+    line-height: 24px;
+    font-size: 16px;
+
+    font-family: 'Roboto';
+  }
+
+  .to {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 16px;
+
+    color: #626262;
+  }
+
+  .location {
+    width: 292px;
+    height: 40px;
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .img-location {
+      margin-left: 16px;
+  }
+
+  .location-input {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 16px;
+
+    border: 0px;
+    margin: 0px 0px 0px 12px;
+    padding: 0px;
+
+    width: 184px;
+    height: 30px;
+
+  }
+
+  input::placeholder {
+      color: #1D1D1D;
+  }
